@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6750A4</color>
+    <color name="colorPrimaryDark">#F8F7FF</color>
+    <color name="colorAccent">#6750A4</color>
+    <color name="nativeBackground">#F8F7FF</color>
+    <bool name="nativeLightBars">true</bool>
+</resources>

@@ -1,0 +1,15 @@
+{
+  "name": "3dpong",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "server": "node server/index.js",
+    "android:debug": "cd android && ./gradlew assembleDebug",
+    "ios:build": "xcodebuild -project ios/App/App.xcodeproj -scheme App -destination generic/platform=iOS CODE_SIGNING_ALLOWED=NO build"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}
